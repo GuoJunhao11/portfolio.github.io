@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!--------------Intro--------------->
+    <header>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Project</a>
+        <a href="#work-experience">Work Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div id="about" class="content-wrap">
+        <img class="profile-img" src="assets/IMG_2458.jpg" />
+        <div class="col-wide">
+          <h1>Junhao Guo</h1>
+          <h2>Software Engineer</h2>
+          <p>
+            Software engineer with a passion for crafting meticulously designed,
+            well-structured full-stack web applications.
+          </p>
+        </div>
+        <a
+          href="assets/Resume_ Junhao Guo_2023.pdf"
+          download
+          class="btn download"
+          target="_blank"
+          >Download PDF</a
+        >
+      </div>
+    </header>
+  </body>
+  <main>
+    <!---------------Technical skills-------------->
+    <section id="skills" class="skills">
+        <div class="tech-wrapper">
+          <h2>Technical Skills</h2>
+          <!-------------------Tech1--------------->
+          <div class="skill-wrapper">
+            <div>
+              <h3>Programming Language:</h3>
+            </div>
+            <div class="skill-description">
+              <p>
+                <strong>Java, JavaScript, SQL, C languages, C++.</strong>
+              </p>
+            </div>
+          </div>
+          <!-------------------Tech2--------------->
+          <div class="skill-wrapper">
+              <div>
+                <h3>Database and Cloud:</h3>
+              </div>
+              <div class="skill-description">
+                <p>
+                  <strong>MySQL, AWS(EC2, RDS), GCP(GAE, GCS), Elasticsearch, Google App Engine.</strong>
+                </p>
+              </div>
+        </div>
+        <!-------------------Tech3--------------->
+        <div class="skill-wrapper">
+          <div>
+            <h3>Web/Mobile Development:</h3>
+          </div>
+          <div class="skill-description">
+            <p>
+              <strong>Spring, React, Node.js, Java Servlet, HTML & CSS, Android.</strong>
+            </p>
+          </div>
+      </section>
+    <!----------------Project---------------------->
+    <section id="projects" class="projects">
+      <div class="projects-wrapper">
+        <h2>Project</h2>
+        <!------------project1------------->
+        <h3>A Personalized Twitch Resources Recommendation Engine</h3>
+        <ul>
+          <li>
+            Developed a full-stack web application for users to search twitch
+            resources and get recommendations.
+          </li>
+          <li>
+            Developed user-friendly web pages using React and AntD, and deployed
+            to AWS EC2.
+          </li>
+          <li>
+            Implemented login/ logout/ favorite RESTful APIs and used Java
+            Servlet to handle HTTP requests.
+          </li>
+          <li>
+            Built a MySQL database on Amazon RDS to store position data fetched
+            from Twitch API.
+          </li>
+          <li>
+            Implemented a content-based search algorithm to recommend Twitch
+            resources for use.
+          </li>
+        </ul>
+        <!------------project2------------->
+        <h3>
+          An online stay rental application based on React and Spring Boot
+        </h3>
+        <ul>
+          <li>
+            Developed a single-page web application using React and AntD, and
+            deployed to GAE.
+          </li>
+          <li>
+            Implemented stay upload, delete, search and reserve backend services
+            using Spring Boot.
+          </li>
+          <li>
+            Used MySQL to store user-generated data, e.g., stay information and
+            reservation history and utilized Google Cloud Storage to store media
+            files for the uploaded stays.
+          </li>
+          <li>
+            Created geo index by Elasticsearch to support geo-based stay search
+            based on user’s selected locations.
+          </li>
+          <li>
+            Implemented token-based server-side user authentication based on the
+            Spring Security framework.
+          </li>
+        </ul>
+        <!------------project3------------->
+        <h3>React JS-based Starlink Trajectory Visualization</h3>
+        <ul>
+          <li>
+            Developed a visualization dashboard using React and D3 to track
+            satellites in real-time locations.
+          </li>
+          <li>
+            Built location, altitude, and duration-based selector to refine
+            satellite search.
+          </li>
+          <li>
+            Animated selected satellite paths on a world map using D3 to improve
+            user-friendliness.
+          </li>
+          <li>
+            Deployed the dashboard to Amazon Web Service for demonstration.
+          </li>
+        </ul>
+        <!------------project4------------->
+        <h3>Tinder-like News App</h3>
+        <ul>
+          <li>
+            Designed the Instagram Flavor News app based on Google Component Architectural MVVM Pattern.
+          </li>
+          <li>
+            Implemented the bottom bar & page navigation using JetPack navigation component.
+          </li>
+          <li>
+            Utilized 3rd party CardStackView(RecyclerView) to support swipe gestures for liking/disliking the news.
+          </li>
+          <li>
+            Built the Room Database with LiveData & ViewModel to support local cache and offline model.
+          </li>
+          <li>
+            Integrated Retrofit and LiveData to pull the latest news data from a RESTFUL endpoint (newsapi.org).
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!----------------work experience-------------->
+    <section id="work-experience" class="work-experience">
+      <div class="work-wrapper">
+        <h2>Work Experience</h2>
+        <!-------------------job1--------------->
+        <div class="job-wrapper">
+          <div>
+            <h3>IT Specialist Intern | Anaheim, California</h3>
+            <p>OC Anaheim ADHC</p>
+            <p>May 2023 - Aug 2023</p>
+          </div>
+          <div class="job-description">
+            <p>
+              Assisted the IT team with hardware and software installations.
+            </p>
+            <p>
+              Responded to user inquiries via email and phone, troubleshooting
+              software and hardware problems.
+            </p>
+          </div>
+        </div>
+        <!-------------------job2--------------->
+        <div class="job-wrapper">
+            <div>
+              <h3>Coding Instructor | Irvine, California</h3>
+              <p>Coding Minds Academy</p>
+              <p>Mar 2023 - Jun 2023</p>
+            </div>
+            <div class="job-description">
+              <p>
+                Collaborated with colleagues to design and implement a rigorous and comprehensive coding curriculum, ensuring alignment with educational standards and industry best practices.
+              </p>
+            </div>
+      </div>
+      <!-------------------job3--------------->
+      <div class="job-wrapper">
+        <div>
+          <h3>Assistant Project Manager | Shenzhen, China</h3>
+          <p>SHING KEE GODOWN(HOLDINGS) LIMITED</p>
+          <p>Oct 2018 - Oct 2020</p>
+        </div>
+        <div class="job-description">
+          <p>
+            Organized several high-profile international fairs each year in China, covering various industries and sectors, creating opportunities for over 200 companies in 20 countries to promote their products or services to about 10,000 domestic and foreign professional purchasers at each year.
+          </p>
+        </div>
+    </section>
+    <!---------------Education-------------------->
+    <section id="education" class="education">
+      <div class="education-wrapper">
+        <h2>Education</h2>
+        <!-------------school1----------->
+        <h3>California State University of Fullerton</h3>
+        <p>Bachelor of Computer Science, 2023 - 2024</p>
+        <ul>
+          <li>
+            Developed web applications using HTML, CSS, JavaScript, and React
+          </li>
+          <li>Expertise in database management with SQL and NoSQL databases</li>
+          <li>
+            Proficient with operating system concepts including process
+            management and memory allocation
+          </li>
+        </ul>
+        <!-------------school2----------->
+        <h3>Santa Barbara City College</h3>
+        <p>Associate of Computer Science, 2021 - 2022</p>
+        <ul>
+          <li>Proficient in programming languages: Java, C, and C++</li>
+          <li>Strong understanding of data structures and algorithms</li>
+          <li>
+            Familiar with object-oriented programming principles and design
+            patterns
+          </li>
+        </ul>
+        <!-------------school2----------->
+        <h3>CodingBootCamp</h3>
+        <p>Certification for:</p>
+        <ul>
+          <li>Full-Stack Development</li>
+          <li>Software Development Essential</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <!---------------footer & contact infor----------->
+  <footer id="contact">
+    <div class="contact-wrapper">
+      <h2>Let's keep in touch!</h2>
+      <div class="contact-buttons">
+        <a href="https://github.com/GuoJunhao11" target="_blank" rel="noopener">
+          <img src="assets/icons8-github-48.png" alt="github" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/junhaoguo"
+          target="_blank"
+          rel="nooperner"
+        >
+          <img src="assets/icons8-linkedin-48.png" alt="linkedin" />
+        </a>
+        <a href="mailto:guojunhao427@gmail.com" target="_blank" rel="noopener">
+          <img src="assets/icons8-gmail-48.png" alt="email" />
+        </a>
+      </div>
+    </div>
+  </footer>
+</html>
