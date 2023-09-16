@@ -21,7 +21,7 @@ Visit [Porfolio Website](https://guojunhao11.github.io/portfolio.github.io/RESUM
 
 ## Contact Information
 
-You can reach me at [jguo1@csu.fullerton.edu](mailto: jguo1@csu.fullerton.edu).
+You can reach me at [jguo1@csu.fullerton.edu](mailto:jguo1@csu.fullerton.edu)
 
 ## Acknowledgments
 
